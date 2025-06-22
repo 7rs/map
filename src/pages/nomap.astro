@@ -1,0 +1,12 @@
+---
+import Base from "@layouts/Base.astro";
+import Tooltips from '../components/Tooltips.svelte';
+
+const tooltips = Array.from({ length: 300 }).map((_, i) => [`tooltip${i}`, `this is a tooltip${i}.`]);
+---
+
+
+
+<Base className="flex flex-col items-center justify-center">
+  <Tooltips tooltips={tooltips} client:load />
+</Base>

@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "oxc.enable": true,
+        "oxc.path.server": "./node_modules/oxlint",
+        "prettier.documentSelectors": ["**/*.astro"],
+        "unocss.exclude": ["*.scss", "**/*.scss"],
+        "unocss.include": ["*.html", "*.astro"],
+        "unocss.colorPreview": false
+    }
+}

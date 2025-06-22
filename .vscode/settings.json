@@ -1,0 +1,41 @@
+{
+    "editor.fontFamily": "'Fira Code', 'HackGen35 Console NFJ', monospace",
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[json]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "biomejs.biome"
+    },
+    "[stylus]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.configPath": "./.prettierrc",
+    "prettier.ignorePath": "./.prettierignore",
+    "stylelint.validate": ["css", "scss", "postcss"],
+    "markdownlint.run": "onType",
+    "stylelint.stylelintPath": "./node_modules/stylelint",
+    "files.trimTrailingWhitespace": false,
+    "emojisense.unicodeCompletionsEnabled": false,
+    "unocss.exclude": ["*.scss"]
+}

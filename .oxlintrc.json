@@ -1,0 +1,7 @@
+{
+    "plugins": ["oxc", "typescript", "import", "node", "promise", "jsx-a11y"],
+    "ignorePatterns": ["node_modules/**", "astro/**"],
+    "rules": {
+        "svelte/non_reactive_update": "off"
+    }
+}

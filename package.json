@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "@astrojs/svelte": "7.1.0",
+        "@unocss/reset": "^66.2.3",
+        "@unocss/svelte-scoped": "^66.2.3",
+        "astro": "5.10.0",
+        "astro-compress": "2.3.8",
+        "astro-compressor": "1.0.0",
+        "clsx": "^2.1.1",
+        "svelte": "5.34.7",
+        "unocss": "^66.2.3"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.0.4",
+        "lighthouse": "^12.6.1",
+        "oxlint": "^1.2.0",
+        "prettier": "^3.5.3",
+        "prettier-plugin-astro": "^0.14.1",
+        "prettier-plugin-svelte": "^3.4.0",
+        "typescript": "^5.8.3",
+        "vite": "^6.3.5"
+    },
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview",
+        "start": "astro build && astro preview",
+        "map": "lighthouse http://localhost:4321/map --output-path ./lighthouse/map.html",
+        "nomap": "lighthouse http://localhost:4321/nomap --output-path ./lighthouse/nomap.html"
+    },
+    "lint-staged": {
+        "**/*.{js,mjs,jsx,ts,cts}": "oxlint"
+    }
+}
